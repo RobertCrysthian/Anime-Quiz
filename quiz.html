@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QuizMusicas</title>
+</head>
+<body>
+    
+    <div class="informacoes_cima">
+        <p class="pontos">0 pontos</p>
+        <p class="dificuldade">Dificuldade: Fácil</p>
+        <button class="botao dica">Dica</button>
+    </div>
+        <div class="espacoParaDica">
+            <div class="editarDica">
+                <div class="dicaInput"></div>
+            </div>
+        </div>
+    
+        <img src="imagens/notaMusical.png" class="imagem_musica" alt="drums">
+        <div class="duracao">
+            <div  class="barra">
+                <progress value="0" max="1"></progress>
+                <div class="ponto">
+            </div>
+            </div>
+            <div class="tempo">
+                <p class="inicio">0:00</p>
+                <p class="fim">1:00</p>
+            </div>
+        </div>
+
+        <div class="card">
+
+        </div>
+
+        <div class="player">
+            <img src="./imagens/botao-de-pausa-de-video.png" height="30px" width="30px" class="icone pausa">
+            <img src="./imagens/botao-play.png" height="30px" width="30px" class="icone play">
+            <img src="./imagens/stop.png" height="30px" width="30px" class="icone stop">
+        </div>
+
+        <form class="formulario">
+            <div class="confirmacao">
+                <button class="botao confirmar" type="submit">Confirmar</button>
+                <button class="botao pular">Pular</button>
+                <button class="botao continuar">Continuar</button>
+            </div>
+
+            <div class="digitacao">
+                <input type="text" class="digitar" placeholder="Digite aqui o nome da música">
+            </div>
+        </form>
+        <div class="div_erro"></div>
+    <audio src="./musicas/Naruto Opening 2 _ Haruka Kanata.mp3" class="audio"></audio>
+
+
+
+
+<script src="script.js"></script>
+<script src="informacoesMusicas.js" type="module"></script>
+<script src="ConstroiGame.js" type="module"></script>
+</body>
+</html>

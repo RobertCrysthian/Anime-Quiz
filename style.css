@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kanit:wght@400;700&family=Montserrat&display=swap');
+body, html {
+    margin:0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #161616;
+    color:#ddd;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.informacoes_cima{
+    width:500px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.imagem_musica  {
+    width: 150px;
+    height:  150px;
+}
+
+.descricao {
+    width:300px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width:300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width:300px;
+    height: 6px;
+    border:1px solid #eee;
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width:0%;
+    background-color:#504f4f;
+}
+
+
+.ponto{
+    width:20px;
+    height:20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo{
+    display:flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.player{
+    width: 250px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.icone{
+    cursor: pointer;
+}
+
+.play, .pausa, .stop {
+    height: 50px;
+    width: 50px;
+}
+
+
+.confirmacao {
+    width:300px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.digitacao{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitar{
+    width: 90%;
+    height: 30px;
+    background-color: #a5a5a5;
+    text-decoration: none;
+    border:none;
+    color:#000000;
+    font-size: 20px;
+}
+.digitar:focus{
+    border:none;
+}
+
+.botao{
+    border:1px solidrgb(43, 43, 43);
+    background-color: #ddd;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 10%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.botao:hover{
+    background-color: #bdbdbd;
+}
+
+.confirmacao{
+    width: 400px;
+    display:flex;
+    align-items: center;
+}
+
+.confirmar{
+    background-color: #74d856
+}
+.confirmar:hover{
+    background-color: #3c682f
+}
+
+.pular{
+    background-color: #db634e
+}
+.pular:hover{
+    background-color: #88392b
+}
+.dica{
+    background-color: #e7bc30
+}
+.dica:hover{
+    background-color: #a87009
+}
+.continuar{
+    background-color: #74d856
+}
+.continuar:hover{
+    background-color: #3c682f
+}
+
+.informacoes_cima{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3a3a3b;
+    margin-bottom: 0px;
+}
+.espacoParaDica{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+.dicaa{
+    background-color: #db634e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulario{
+    display:flex;
+
+    align-items: center;
+    flex-direction:column
+}
+
+.button{
+    text-decoration: none;
+    color:#0e0e0e;
+    padding:10px 15px;
+    background-color:#74d856;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #3c682f;
+}
+.imagem_final{
+    margin-bottom: 5px;    
+}
+
+@media (max-width:520px){
+    .informacoes_cima{
+        width: 90%;
+    }
+    /* .digitar{
+        width: 90%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }  */
+
+    .digitacao{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .informacoes_cima{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dificuldade{
+        margin-right: 5px;
+    }
+
+    .pontos{
+        margin-right: 5px;
+    }
+
+    .dica{
+        padding: 7px;
+    }
+    .body{
+        height: 100vh;
+        width: 100vh;
+    }
+    
+    .vid p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card img{
+        height: 60%;
+        width: 80%;
+    }
+    .vid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
